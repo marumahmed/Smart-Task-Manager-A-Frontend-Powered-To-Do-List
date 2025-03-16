@@ -1,0 +1,107 @@
+@media only screen and (max-width: 767px) {
+    .header-container {
+        height: 76px;
+    }
+    .check-logo {
+        width: 47px; 
+    }
+    .check-logo img {
+        width: 44px;
+    }
+    .header-div-1 {
+        width: 60px;
+        margin-left: -10px;
+    }   
+    .btn-header {
+        padding: 10px 20px;
+    }
+    .hero-section {
+        padding: 10px;
+    }
+    .hero-section h2 {
+        font-size: 3.1rem;
+    }
+    .hero-section p {
+        font-size: 1.3rem;
+    }
+    .box {
+        padding: 0px 5px;
+    }
+    
+}
+
+@media only screen and (max-width: 1199px) {
+    .last-box-div {
+        padding: 10px 14px;
+        margin-top: 12px;
+    }
+    .main-heading-div h2 {
+        padding-right: 130px;
+    }
+    .z-index-class {
+        left: 300px;
+        bottom: -40px;
+    }
+} 
+@media only screen and (max-width: 991px) and  (min-width: 767px ){
+    .boxes-div{
+        margin-top: 150px;
+        gap: 100px;
+    }  
+    .z-index-class {
+        position: absolute;
+        left: 180px;
+    }
+    .icon-div i {
+        font-size: 1rem;
+        margin: 0px 0px 22px 23px;
+    }
+    .icon-div {
+        width: 220px;
+    }
+    .circle-div {
+        gap: 9px;
+    }
+    .div-1 {
+        padding: 9px;
+    }
+    .div-2 {
+        padding: 9px;
+    }
+    .div-3 {
+        padding: 9px;
+    }
+    .div-4 {
+        padding: 9px;
+    }
+    .div-5 {
+        padding: 9px;
+    }
+    .div-6 {
+        padding: 9px;
+    }
+    .box {
+        padding: 2px 3px;
+        border-radius: 20px;
+        margin-bottom: 9px;
+    }
+}
+@media only screen and (max-width: 676px) {
+    .z-index-class {
+        position: static;
+        margin-top: -130px;
+    }
+    .main-heading-div h2 {
+        font-size: 0.9rem;
+    }
+    .last-box-div {
+        display: flex;
+        justify-content: none;
+    }
+    .main-heading-div h2 {
+        padding-right: 90px;
+    }
+    .main-bg-0 {
+        margin-top: -130px;
+    }
+}
